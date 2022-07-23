@@ -1,12 +1,24 @@
 package com.JJP.restapiserver.config;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @EnableWebSecurity // 웹 보안 활성화
 public class SecurityConfig extends WebSecurityConfigurerAdapter { // 추가적 설정을 위해 WebSecurityConfigurerAdapter extends
 
+    // h2 console을 이용하기 위한 설정 - h2 console 요청 및 favicon 무시
+    // - 추후 db 변경 후 삭제 예정
+    @Override
+    public void configure(WebSecurity web) {
+        web
+                .ignoring()
+                .antMatchers("/h2-console/**", "/favicon.ico");
+
+    }
+
+    // Http 접근 허용을 위한 설정
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.
