@@ -4,11 +4,13 @@ import com.JJP.restapiserver.domain.entity.BaseTimeEntity;
 import com.JJP.restapiserver.domain.entity.challenge.Challenge;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Getter
 @Entity
+@NoArgsConstructor
 public class Stage extends BaseTimeEntity {
     @Id
     @GeneratedValue

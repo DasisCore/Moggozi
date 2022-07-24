@@ -4,11 +4,13 @@ import com.JJP.restapiserver.domain.entity.BaseTimeEntity;
 import com.JJP.restapiserver.domain.entity.member.Member;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
 @Getter
+@NoArgsConstructor
 public class Post extends BaseTimeEntity {
     @Id
     @GeneratedValue

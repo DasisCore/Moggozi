@@ -5,6 +5,7 @@ import com.JJP.restapiserver.domain.entity.member.Member;
 import com.JJP.restapiserver.domain.entity.stage.Stage;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @Entity
 @Getter
+@NoArgsConstructor
 public class Challenge extends BaseTimeEntity {
     @Id
     @GeneratedValue
@@ -58,5 +60,4 @@ public class Challenge extends BaseTimeEntity {
         this.hobby = hobby;
         this.state = state;
     }
-
 }
