@@ -1,10 +1,12 @@
+import KakaoLogin from "./KakaoLogin";
+import NaverLogin from "./NaverLogin";
+
 import React, { useRef, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Cookie from "js-cookie";
 import moment from "moment"
 import { login } from "../../store/user";
-
 import axios from "axios";
 
 const LoginForm: React.FC = () => {
@@ -79,6 +81,8 @@ const LoginForm: React.FC = () => {
           </div>
           <button type="submit">Login</button>
         </form>
+        <KakaoLogin />
+        <NaverLogin />
         {/* <SocialLoginForm value={"KAKAO"}></SocialLoginForm>
         <SocialLoginForm value={"GOOGLE"}></SocialLoginForm> */}
       </div>
