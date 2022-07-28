@@ -6,8 +6,10 @@ export const apiConfig = {
 }
 
 export const socialLogin = {
-  kakaoClientID: process.env.KAKAO_CLIENT_ID,
-  kakaoRedirectURI: process.env.KAKAO_REDIRECT_URI,
-  naverClientID: process.env.NAVER_CLIENT_ID,
-  naverRedirectURI: process.env.NAVER_REDIRECT_URI,
+  kakaoClientID: process.env.REACT_APP_KAKAO_CLIENT_ID,
+  kakaoRedirectURI: process.env.REACT_APP_KAKAO_REDIRECT_URI,
+  naverClientID: process.env.REACT_APP_NAVER_CLIENT_ID,
+  naverRedirectURI: process.env.REACT_APP_NAVER_REDIRECT_URI,
+  googleClientID: process.env.REACT_APP_GOOGLE_CLIENT_ID,
+  googleRedirectURI: process.env.REACT_APP_GOOGLE_REDIRECT_URI,
 }

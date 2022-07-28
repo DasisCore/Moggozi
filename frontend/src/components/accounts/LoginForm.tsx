@@ -1,5 +1,6 @@
 import KakaoLogin from "./KakaoLogin";
 import NaverLogin from "./NaverLogin";
+import GoogleLogin from "./GoogleLogin";
 
 import React, { useRef, useEffect } from "react";
 import { useDispatch } from "react-redux";
@@ -65,7 +66,6 @@ const LoginForm: React.FC = () => {
     }
   }, [token, navigate])
 
-
   return (
     <div>
       <h3>Login form</h3>
@@ -81,8 +81,10 @@ const LoginForm: React.FC = () => {
           </div>
           <button type="submit">Login</button>
         </form>
-        <KakaoLogin />
-        <NaverLogin />
+        <p><KakaoLogin /></p>
+        <p><NaverLogin /></p>
+        <p><GoogleLogin /></p>
+        <p></p>
         {/* <SocialLoginForm value={"KAKAO"}></SocialLoginForm>
         <SocialLoginForm value={"GOOGLE"}></SocialLoginForm> */}
       </div>
