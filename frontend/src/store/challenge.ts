@@ -1,5 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
 import { UserInfo } from "./auth";
+import { StageState } from "./stage";
 
 export interface Hobby {
   id: number | null;
@@ -18,26 +18,23 @@ export interface ChallengeItemState {
   userProgress: number | null;
 }
 
-const initialChallengesRankState: ChallengeItemState[] = [];
-
-
 // 챌린지 디테일 정보
 export interface ChallengeDetailState {
   id: number | null;
-  create_time: string | null;
-  update_time: string | null;
+  name: string | null;
+  img: string | null;
+  content: string | null;
+  level: number | null;
+  userProgress: number | null;  
+  writer: UserInfo;
+  stageList: StageState;
+  likeNum: number | null;
+  // 리뷰
+  // reviewList: 
+  hobbies: Hobby[];
+
+  // 백에서 추가해줘야 함
+  // createTime: string | null;
+  // updateTime: string | null;
+  // description 추가?
 }
-
-const initialChallengeDetailState: ChallengeDetailState[] = [];
-
-export const challengeSlice = createSlice({
-  name: "challenge",
-  initialState: initialChallengeDetailState,
-  reducers: {
-    challengeCreate: (state, action) => {
-      state.push(action.payload);
-    },
-    challengeUpdate: (state, action) => {},
-    challengeDelete: (state, action) => {},
-  },
-});
