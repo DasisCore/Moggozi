@@ -20,17 +20,6 @@ export interface ChallengeItemState {
 
 const initialChallengesRankState: ChallengeItemState[] = [];
 
-export const challengesSlice = createSlice({
-  name: "challenges",
-  initialState: initialChallengesRankState,
-  reducers: {
-    challengeCreate: (state, action) => {
-      state.push(action.payload);
-    },
-    challengeUpdate: (state, action) => {},
-    challengeDelete: (state, action) => {},
-  },
-});
 
 // 챌린지 디테일 정보
 export interface ChallengeDetailState {
@@ -52,7 +41,3 @@ export const challengeSlice = createSlice({
     challengeDelete: (state, action) => {},
   },
 });
-
-export const { challengeCreate } = challengesSlice.actions;
-
-export default challengesSlice.reducer;
