@@ -27,7 +27,7 @@ export interface ChallengeDetailState {
   level: number | null;
   userProgress: number | null;  
   writer: UserInfo;
-  stageList: StageState;
+  stageList: StageState[];
   likeNum: number | null;
   // 리뷰
   // reviewList: 
