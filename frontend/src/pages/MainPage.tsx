@@ -12,11 +12,9 @@ const MainPage: React.FC = () => {
     ChallengeItemState[]
   >([]);
   useEffect(() => {
-    console.log();
     setIsLoading(true);
     fetchChallengeRankList()
       .then((res) => {
-        console.log(res);
         const challengeRankList: ChallengeItemState[] = [];
 
         for (const key in res) {
