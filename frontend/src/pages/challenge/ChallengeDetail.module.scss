@@ -103,7 +103,7 @@
           }
         }
       }
-      
+
       // 챌린지 이미지
       .challengeImg {
         width: 992px;
@@ -202,9 +202,9 @@
               background: #fff;
               color: red;
               font-size: 16px;
-
+              // 좋아요 취소 안되게끔 변경
               &:hover {
-                color: mixin.$cloudGray !important;
+                color: red !important;
               }
             }
           }

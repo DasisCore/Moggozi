@@ -38,6 +38,7 @@ const OverCommentForm: React.FC<{
     commentAdd(enteredComment)
       .then((res) => {
         console.log(`${postId}에 ${parentId} 댓글에 댓글 달기 완료`, res);
+        console.log("send:",userInfo, "receive:",receiver)
         dispatch(commentRegister(res));
         // 댓글, 대댓글 달리면 무조건 포스팅작성자에게 알림
         let jsonSend: Alert = {
@@ -53,6 +54,7 @@ const OverCommentForm: React.FC<{
           type: "comment",
         };
         if (receiver!.id! !== userInfo.id!) {
+          console.log("comment send",jsonSend)
           ws.current.send(JSON.stringify(jsonSend));
         }
         // 대댓글달리면
@@ -74,6 +76,7 @@ const OverCommentForm: React.FC<{
                 type: "reply",
               };
               if (receiver!.id! !== userInfo.id!) {
+                console.log("reply send", jsonSend)
                 ws.current.send(JSON.stringify(jsonSend));
               }
             }
@@ -94,7 +97,7 @@ const OverCommentForm: React.FC<{
       <form className={styles.commentForm}>
         <textarea name="comment" id="comment" ref={enteredText} placeholder="댓글달기"></textarea>
         {/* <input type="text" id="comment" ref={enteredText} required placeholder="댓글달기"/> */}
-        <div><button onClick={commentSubmitHandler}>게시</button></div>
+        <div><button onClick={commentSubmitHandler}>등록</button></div>
       </form>
     </>
   );

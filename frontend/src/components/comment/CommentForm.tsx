@@ -57,6 +57,8 @@ const CommentForm: React.FC<{
               type: "comment",
             };
             if (receiver!.id! !== user.userInfo.id!) {
+              console.log("sender",user.userInfo,"receiver",receiver)
+              console.log("send msg",ws,jsonSend)
               ws.current.send(JSON.stringify(jsonSend));
             }
             // 대댓글달리면
@@ -78,6 +80,7 @@ const CommentForm: React.FC<{
                     type: "reply",
                   };
                   if (receiver!.id! !== user.userInfo.id!) {
+                    console.log("send msg",ws,jsonSend)
                     ws.current.send(JSON.stringify(jsonSend));
                   }
                 }
@@ -108,7 +111,7 @@ const CommentForm: React.FC<{
         ></textarea>
         {/* <input type="text" id="comment" ref={enteredText} required placeholder="댓글달기"/> */}
         <div>
-          <button onClick={commentSubmitHandler}>게시</button>
+          <button onClick={commentSubmitHandler}>등록</button>
         </div>
       </form>
     </>
