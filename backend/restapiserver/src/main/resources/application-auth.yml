@@ -11,26 +11,26 @@ spring:
       client:
         registration:
           google:
-            client-id: 332699865947-m8a2r0nh2gleol3c13ra6vahu78ael67.apps.googleusercontent.com
-            client-secret: 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
-            redirect-uri: "https://i7c201.p.ssafy.io/api/login/oauth2/code/google"
+            client-id: {{google_client_id}}
+            client-secret: {{google_client_secret}}
+            redirect-uri: "{{google_redirect_url}}"
             scope: profile, email
 
           naver:
-            client-id: sxvlIGBRak3z0iWC1QNv
-            client-secret: YOT4zpMnPj
+            client-id: {{naver_client_id}}
+            client-secret: {{naver_client_secret}}
             client-authentication-method: POST
             authorization-grant-type: authorization_code
-            redirect-uri: "https://i7c201.p.ssafy.io/api/login/oauth2/code/naver"
+            redirect-uri: "{{naver_redirect_url}}"
             scope: name, email, profile_image
             client-name: Naver
 
           kakao:
-            client-id: b0124141d1ed42c9b5218ac91637192d
-            client-secret: dOji2PQP9kao6dUKxa6DoqMXl0NgC4CV
+            client-id: {{kakao_client_id}}
+            client-secret: {{kakao_client_secret}}
             client-authentication-method: POST
             authorization-grant-type: authorization_code
-            redirect-uri: "https://i7c201.p.ssafy.io/api/login/oauth2/code/kakao"
+            redirect-uri: "{{google_redirect_url}}"
             scope: profile_nickname, profile_image, account_email
             client-name: Kakao
 
@@ -86,3 +86,4 @@ springdoc:
     doc-expansion: none
   paths-to-match:
     - /**
+ 
