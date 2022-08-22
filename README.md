@@ -196,15 +196,21 @@
 
 #### 1) Front
 
-- [박세호](https://github.com/seho27060): 실시간 알림, 포스팅
-- [임윤혁](https://github.com/yunhlim): 챌린지, 스테이지
-- [허재영](https://github.com/DasisCore): 웹 디자인, 유저
+| <img title="" src="README.assets/2022-08-23-01-15-10-image.png" alt="" width="225"> | <img src="README.assets/2022-08-23-01-15-30-image.png" title="" alt="" width="237"> | <img src="README.assets/2022-08-23-01-15-58-image.png" title="" alt="" width="237"> |
+|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+| [박세호](https://github.com/seho27060)                                                 | [임윤혁](https://github.com/yunhlim)                                                   | [허재영](https://github.com/DasisCore)                                                 |
+| 실시간 알림, 포스팅                                                                         | 챌린지, 스테이지                                                                           | 웹디자인, 유저, sass                                                                      |
+
+
 
 #### 2) Back
 
-- [박상현](https://github.com/nomzaxs): 서버, 포스팅 API
-- [정호진](https://github.com/junghojin): 스프링 시큐리티, 유저 API 및 Follow API
-- [조성민(팀장)](https://github.com/WeedInGist): 챌린지 API, 스테이지 API, 알림
+| ![](README.assets/2022-08-23-01-17-41-image.png) | ![](README.assets/2022-08-23-01-17-54-image.png) | ![](README.assets/2022-08-23-01-18-04-image.png) |
+|:------------------------------------------------:|:------------------------------------------------:|:------------------------------------------------:|
+| [박상현](https://github.com/nomzaxs)                | [정호진](https://github.com/junghojin)              | [조성민(팀장)](https://github.com/WeedInGist)         |
+| 서버, 포스팅 API                                      | 스프링 시큐리티, 유저 API 및 Follow API                    | 챌린지 API, 스테이지 API, 알림                            |
+
+
 
 ---
 
@@ -216,7 +222,7 @@
 > 
 > 해당 내용은 링크를 클릭하시면 이동하실 수 있습니다.
 
-##### [Front Trouble Shooting]()
+##### [Front Trouble Shooting](https://github.com/DasisCore/Moggozi/tree/master/Frontend_Trouble_Shooting)
 
 ##### [Back Trouble Shooting]()
 
@@ -232,7 +238,9 @@
 
 ##### [모꼬지 사용자 흐름도](https://docs.google.com/document/d/1U5BoqbgwIo7c3jghJfH3SaOEKPX7v4txefH9_AuvHls/edit?usp=sharing)
 
-##### [모꼬지 와이어프레임]()
+##### [모꼬지 와이어프레임](https://www.figma.com/file/bWvgf20dimmd7qJyU9fQcv/Untitled?node-id=0%3A1)
+
+##### [모꼬지 목업](https://www.figma.com/file/hTVofDNOmW8qJBeBOQacnj/moggozi?node-id=275%3A1474)
 
 ##### [모꼬지 API 문서](https://www.notion.so/junghojin/API-40d71786c59c4079916b9f8c5c305423)
 
