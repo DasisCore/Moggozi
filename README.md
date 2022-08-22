@@ -248,4 +248,4 @@
 
 ##### [모꼬지 시연시나리오](https://drive.google.com/file/d/1Zw85PwF_qezx5kxNaeFc6XjYAOArsewl/view?usp=sharing)
 
-##### [모꼬지 UCC]([모꼬지 시연영상 - YouTube](https://www.youtube.com/watch?v=TBeAkZz2-g0))
+##### [모꼬지 UCC](https://www.youtube.com/watch?v=TBeAkZz2-g0)
