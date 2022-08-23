@@ -215,10 +215,13 @@
 ## 7. 기술적 고민
 
 > *우리는 프로젝트 진행을 위해 많은 것을 익혔고, 그리고 다양한 문제들을 만났습니다. 프로젝트 완성 후에도 개선할 수 있는 부분들에 관해 고민하였습니다.* <br/>
-> *해당 내용을 깃에 정리하였습니다. 링크를 클릭하시면 이동하실 수 있습니다.*
+> *해당 내용을 깃과, 블로그에 정리하였습니다. 링크를 클릭하시면 이동하실 수 있습니다.*
 
 #### [Front Issues](https://github.com/DasisCore/Moggozi/tree/master/Frontend_Trouble_Shooting)
+> *더 많은 내용은 블로그에 정리되어 있습니다.*
+> [프로젝트를 진행하며 정리한 내용 - React](https://tarra.tistory.com/category/Develop/react)
 
+<br/>
 #### [Back Issues]()
 
 ---
