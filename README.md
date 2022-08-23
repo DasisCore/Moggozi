@@ -217,9 +217,9 @@
 > *우리는 프로젝트 진행을 위해 많은 것을 익혔고, 그리고 다양한 문제들을 만났습니다. 프로젝트 완성 후에도 개선할 수 있는 부분들에 관해 고민하였습니다.* <br/>
 > *해당 내용을 깃에 정리하였습니다. 링크를 클릭하시면 이동하실 수 있습니다.*
 
-##### [Front Issues](https://github.com/DasisCore/Moggozi/tree/master/Frontend_Trouble_Shooting)
+#### [Front Issues](https://github.com/DasisCore/Moggozi/tree/master/Frontend_Trouble_Shooting)
 
-##### [Back Issues]()
+#### [Back Issues]()
 
 ---
 
@@ -233,18 +233,18 @@
 
 #### [모꼬지 팀의 Jira 사용 - Scrum]() // 곧 업데이트 될 예정입니다.
 
-##### [모꼬지 요구사항 정의서](https://docs.google.com/document/d/1m0Ws64yskiV_aV0Q_VR1HM2pkPK7ZOOXY_sOWiMyTLo/edit?usp=sharing)
+#### [모꼬지 요구사항 정의서](https://docs.google.com/document/d/1m0Ws64yskiV_aV0Q_VR1HM2pkPK7ZOOXY_sOWiMyTLo/edit?usp=sharing)
 
-##### [모꼬지 사용자 흐름도](https://docs.google.com/document/d/1U5BoqbgwIo7c3jghJfH3SaOEKPX7v4txefH9_AuvHls/edit?usp=sharing)
+#### [모꼬지 사용자 흐름도](https://docs.google.com/document/d/1U5BoqbgwIo7c3jghJfH3SaOEKPX7v4txefH9_AuvHls/edit?usp=sharing)
 
-##### [모꼬지 와이어프레임](https://www.figma.com/file/bWvgf20dimmd7qJyU9fQcv/Untitled?node-id=0%3A1)
+#### [모꼬지 와이어프레임](https://www.figma.com/file/bWvgf20dimmd7qJyU9fQcv/Untitled?node-id=0%3A1)
 
-##### [모꼬지 목업](https://www.figma.com/file/hTVofDNOmW8qJBeBOQacnj/moggozi?node-id=275%3A1474)
+#### [모꼬지 목업](https://www.figma.com/file/hTVofDNOmW8qJBeBOQacnj/moggozi?node-id=275%3A1474)
 
-##### [모꼬지 API 문서](https://www.notion.so/junghojin/API-40d71786c59c4079916b9f8c5c305423)
+#### [모꼬지 API 문서](https://www.notion.so/junghojin/API-40d71786c59c4079916b9f8c5c305423)
 
-##### [모꼬지 포팅 매뉴얼](https://docs.google.com/document/d/1z6tbVxldv0COLLaNV4Lnoa_k6kw80-dn7247fGjbq68/edit?usp=sharing)
+#### [모꼬지 포팅 매뉴얼](https://docs.google.com/document/d/1z6tbVxldv0COLLaNV4Lnoa_k6kw80-dn7247fGjbq68/edit?usp=sharing)
 
-##### [모꼬지 시연시나리오](https://drive.google.com/file/d/1Zw85PwF_qezx5kxNaeFc6XjYAOArsewl/view?usp=sharing)
+#### [모꼬지 시연시나리오](https://drive.google.com/file/d/1Zw85PwF_qezx5kxNaeFc6XjYAOArsewl/view?usp=sharing)
 
-##### [모꼬지 UCC](https://www.youtube.com/watch?v=TBeAkZz2-g0)
+#### [모꼬지 UCC](https://www.youtube.com/watch?v=TBeAkZz2-g0)
