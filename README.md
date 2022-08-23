@@ -206,7 +206,7 @@
 | ![](README.assets/2022-08-23-01-17-41-image.png) | ![](README.assets/2022-08-23-01-17-54-image.png) | ![](README.assets/2022-08-23-01-18-04-image.png) |
 |:------------------------------------------------:|:------------------------------------------------:|:------------------------------------------------:|
 | [박상현](https://github.com/nomzaxs)                | [정호진](https://github.com/junghojin)              | [조성민(팀장)](https://github.com/WeedInGist)         |
-| 서버, 포스팅 API                                      | 스프링 시큐리티, 유저 API 및 Follow API                    | 챌린지 API, 스테이지 API, 알림                            |
+| 서버, 포스팅 API                                      | 스프링 시큐리티, 유저 API                    | 챌린지 API, 스테이지 API, 알림                            |
 
 ---
 
