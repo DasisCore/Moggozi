@@ -219,9 +219,10 @@
 
 #### [Front Issues](https://github.com/DasisCore/Moggozi/tree/master/Frontend_Trouble_Shooting)
 > *더 많은 내용은 블로그에 정리되어 있습니다.*
-> [프로젝트를 진행하며 정리한 내용 - React](https://tarra.tistory.com/category/Develop/react)
+> - [프로젝트를 진행하며 정리한 내용 - React](https://tarra.tistory.com/category/Develop/react)
 
 <br/>
+
 #### [Back Issues]()
 
 ---
