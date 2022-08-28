@@ -245,7 +245,7 @@
 
 #### [모꼬지 목업](https://www.figma.com/file/hTVofDNOmW8qJBeBOQacnj/moggozi?node-id=275%3A1474)
 
-#### [모꼬지 API 문서](https://www.notion.so/junghojin/API-40d71786c59c4079916b9f8c5c305423)
+#### [모꼬지 API 문서](https://junghojin.notion.site/API-40d71786c59c4079916b9f8c5c305423)
 
 #### [모꼬지 포팅 매뉴얼](https://docs.google.com/document/d/1z6tbVxldv0COLLaNV4Lnoa_k6kw80-dn7247fGjbq68/edit?usp=sharing)
 
