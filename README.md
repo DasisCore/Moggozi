@@ -221,10 +221,6 @@
 > *더 많은 내용은 블로그에 정리되어 있습니다.*
 > - [프로젝트를 진행하며 정리한 내용 - React](https://tarra.tistory.com/category/Develop/react)
 
-<br/>
-
-#### [Back Issues]()
-
 ---
 
 <br/>
@@ -232,10 +228,6 @@
 ## 8. 기타 자료
 
 > *링크를 누르시면 해당 페이지로 이동합니다.**
-
-#### [모꼬지 팀의 Git 전략 및 Convention]() // 곧 업데이트 될 예정입니다.
-
-#### [모꼬지 팀의 Jira 사용 - Scrum]() // 곧 업데이트 될 예정입니다.
 
 #### [모꼬지 요구사항 정의서](https://docs.google.com/document/d/1m0Ws64yskiV_aV0Q_VR1HM2pkPK7ZOOXY_sOWiMyTLo/edit?usp=sharing)
 
